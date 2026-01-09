@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CashBuzz | Smart Expense Tracker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- BACKGROUND VIDEO -->
+<video autoplay muted loop class="bg-video">
+  <source src="expense-bg.mp4" type="video/mp4" />
+</video>
+<div class="overlay"></div>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">CashBuzz</div>
+  <div class="nav-links">
+    <a href="#features">Features</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <h1 data-aos="fade-up">Track Your Expenses Smarter</h1>
+  <p data-aos="fade-up" data-aos-delay="150">
+    Manage income, expenses and insights through one clean,
+    fast and secure dashboard.
+  </p>
+  <a href="login.html" class="hero-btn" data-aos="zoom-in" data-aos-delay="300">
+    Get Started
+  </a>
+</section>
+
+<!-- FEATURES -->
+<section id="features" class="features">
+  <h2 data-aos="fade-up">Features</h2>
+
+  <div class="feature-grid">
+    <div class="feature-card" data-aos="fade-up">
+      <h3>Real‑time Tracking</h3>
+      <p>Instantly track income and expenses with live updates.</p>
+    </div>
+
+    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+      <h3>Smart Analytics</h3>
+      <p>Understand spending using charts and insights.</p>
+    </div>
+
+    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+      <h3>Secure Login</h3>
+      <p>Google authentication with session security.</p>
+    </div>
+
+    <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+      <h3>Category Control</h3>
+      <p>Filter, sort and manage transactions easily.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <h2 class="about-title" data-aos="fade-up">About</h2>
+
+  <div class="about-content" data-aos="fade-up" data-aos-delay="150">
+    <p>
+      CashBuzz is a modern, professional expense‑tracking platform designed
+      to give you complete control over your personal finances.
+      It allows you to manage income and expenses, analyze spending
+      patterns, and gain clear insights through interactive charts —
+      all inside a fast, minimal and secure dashboard experience.
+    </p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2 data-aos="fade-up">Contact</h2>
+
+  <div class="contact-box" data-aos="fade-up" data-aos-delay="150">
+    <p>If you have any questions or feedback, feel free to reach out.</p>
+    <p><strong>Email:</strong> support@cashbuzz.com</p>
+    <p><strong>Location:</strong> India</p>
+  </div>
+</section>
+
+<footer>
+  © 2026 CashBuzz · Built by Kiran
+</footer>
+
+<!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 900,
+    easing: "ease-out-cubic",
+    once: true
+  });
+</script>
+
+</body>
+</html>

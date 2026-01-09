@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f8fafc;
+}
+
+/* CENTER CARD */
+.auth-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CARD */
+.auth-box {
+  width: 420px;
+  background: #ffffff;
+  padding: 42px;
+  border-radius: 10px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}
+
+/* HEADING */
+.auth-box h2 {
+  margin: 0;
+  font-size: 28px;
+  color: #0f172a;
+}
+
+/* SUB TEXT */
+.sub-text {
+  margin-top: 6px;
+  margin-bottom: 28px;
+  font-size: 14px;
+  color: #64748b;
+}
+
+.sub-text a {
+  color: #6366f1;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* INPUTS */
+.auth-box input {
+  width: 100%;
+  padding: 13px;
+  margin-bottom: 16px;
+  border-radius: 6px;
+  border: 1px solid #cbd5f5;
+  font-size: 14px;
+}
+
+.auth-box input:focus {
+  outline: none;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 2px rgba(99,102,241,0.2);
+}
+
+/* LOGIN BUTTON */
+.auth-box button {
+  width: 100%;
+  padding: 13px;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.auth-box button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 20px rgba(15,23,42,0.35);
+}
+
+/* OR DIVIDER */
+.or {
+  margin: 22px 0;
+  text-align: center;
+  font-size: 13px;
+  color: #64748b;
+  position: relative;
+}
+
+.or::before,
+.or::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  height: 1px;
+  background: #e5e7eb;
+}
+
+.or::before { left: 0; }
+.or::after { right: 0; }
+
+/* GOOGLE BUTTON */
+.google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  text-decoration: none;
+  background: #ffffff;
+  color: #111827;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.google-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.google-btn:hover {
+  background: #f3f4f6;
+}
+
